@@ -33,7 +33,7 @@ async def chatbot_response(request: ChatRequest):
 
 # Fungsi untuk menjalankan FastAPI di background thread
 def run_fastapi():
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(app, host="https://chatbot-app-endpoint-dummy.streamlit.app/", port=8000)
 
 # --- Streamlit UI --- #
 
